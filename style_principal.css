@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #bae8ff;
+}
+
+#main-header {
+    position: relative;
+    color: white;
+    padding: 20px;
+    background-image: url(imgini/fondo_principal.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bubble {
+    background-color: rgba(173, 216, 230, 0.7);
+    border-radius: 20px;
+    margin: 0 10px;
+    padding: 10px 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-link:hover {
+    color: #6eb8f5;
+}
+
+.logo-image {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    height: auto;
+}
+
+#sobre-nosotros {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.content {
+    max-width: 780px;
+    margin: auto;
+}
+
+.image-container {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    width: 32%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+p {
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+}
+
+#banner {
+    background-color: #2196F3;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.banner-text {
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#main-footer {
+    background-color: #2196F3;
+    color: white;
+    font-family: Verdana, sans-serif;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.boton {
+    background-color: #6eb8f5; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    font-size: 1.2em; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.boton:hover {
+    background-color: #0555e9; 
+}
